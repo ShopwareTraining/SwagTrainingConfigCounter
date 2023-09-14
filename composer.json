@@ -1,0 +1,40 @@
+{
+  "name": "swag-training/shopware6-config-counter",
+  "description": "Custom Vue counter component in plugin configuration",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jisse Reitsma"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\ConfigCounter\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\ConfigCounter\\SwagTrainingConfigCounter",
+    "copyright": "Jisse Reitsma",
+    "label": {
+      "de-DE": "SwagTrainingConfigCounter",
+      "en-GB": "SwagTrainingConfigCounter"
+    },
+    "description": {
+      "de-DE": "Custom Vue counter component in plugin configuration",
+      "en-GB": "Custom Vue counter component in plugin configuration"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    },
+    "supportLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    }
+  }
+}

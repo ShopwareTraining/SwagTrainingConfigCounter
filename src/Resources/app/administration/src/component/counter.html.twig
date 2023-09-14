@@ -1,0 +1,11 @@
+<div class="sw-field sw-block-field sw-field--text sw-form-field-renderer">
+    <div style="padding-bottom:10px">
+        <span>Current value: {{ currentValue }}</span>
+    </div>
+    <div style="padding-bottom:10px">
+        <button @click="increment" class="sw-button">increment</button>
+    </div>
+    <div class="sw-block-field__block">
+        <input type="text" v-model="currentValue"/>
+    </div>
+</div>
